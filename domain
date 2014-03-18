@@ -1,0 +1,37 @@
+
+class Event extends {
+ 
+	static mapping = {
+		table 'events'
+		id column: 'event_id'
+		text column: 'event_name'
+	}
+ 
+}
+
+
+class Note {
+    String noteText
+    Date dateCreated
+
+    static hasMany = [events : NoteEvent]
+
+    def beforeInsert = {
+        def event = new NoteEvent(type: "CREATED")
+        addToEvents(event)
+    }
+
+    def beforeUpdate = {
+        def event = new NoteEvent(type: "UPDATED")
+        addToEvents(event)
+    }
+}
+
+
+class NoteEvent {
+    Date dateCreated
+    String type
+
+    static belongsTo = [note : Note]
+}
+
