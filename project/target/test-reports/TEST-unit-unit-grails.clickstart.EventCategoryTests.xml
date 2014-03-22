@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="jenkins" name="grails.clickstart.EventCategoryTests" tests="1" time="0.617" timestamp="2014-03-05T04:37:56">
+  <properties />
+  <testcase classname="grails.clickstart.EventCategoryTests" name="testToString" time="0.616" />
+  <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+  <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+</testsuite>

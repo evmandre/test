@@ -1,0 +1,19 @@
+Testsuite: grails.clickstart.EventCategoryControllerSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 3.095 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 2.354 sec
+Testcase: Test the create action returns the correct model took 0.189 sec
+Testcase: Test that the show action returns the correct model took 0.17 sec
+Testcase: Test that the edit action returns the correct model took 0.174 sec

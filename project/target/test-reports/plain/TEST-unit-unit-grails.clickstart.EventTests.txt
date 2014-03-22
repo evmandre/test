@@ -1,0 +1,10 @@
+Testsuite: grails.clickstart.EventTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.028 sec
+------------- Standard Output ---------------
+--Output from testToString--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testToString--
+------------- ---------------- ---------------
+
+Testcase: testToString took 0.027 sec
